@@ -1,12 +1,15 @@
 .orange-color{
     color:orange;
 }
-.mission{
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family: 'Poppins', sans-serif; 
     font-weight: 900;
 }
-.mission h1{
+body h1{
     font-size: 40px;
+}
+body h3{
+    font-size: 25px;
 }
 .border{
     border-image:linear-gradient(orange,gold) ;
@@ -16,7 +19,6 @@
 }
 .focus{
     display: flex;
-
 }
 .focus img{
     width: 40%;
@@ -26,9 +28,30 @@
     margin: 5%;
     margin-left: 10%;
 }
-.mission-goals{
-
+.mission-goals img{
+    width: 30%;
+    text-align: justify;
 }
 #middle{
     text-align: center;
+}
+.goal-details{
+    display: flex;
+}
+#goal-bg1{
+    background: rgba(174, 214, 241,.5);
+}
+#goal-bg2{
+    background: rgba(250, 219, 216, .7);
+}
+#goal-bg3{
+    background:rgba(249, 231, 159 ,.7);
+}
+.goal-bg{
+    margin: 2%;
+    border-radius: 5%;
+    padding: 2%;
+}
+.goal-bg h1{
+    font-size: 100px;
 }
